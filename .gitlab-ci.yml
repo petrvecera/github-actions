@@ -15,10 +15,6 @@ Eslint:
   script:
     - npm run eslint
 
-MyJob:
-    stage:
-
-
 Selenium:
   stage: eslint
   before_script:
