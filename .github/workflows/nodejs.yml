@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 10.x
+      - run: echo ${GITHUB_SHA::8}
       - run: npm install
       - run: npm test
 
